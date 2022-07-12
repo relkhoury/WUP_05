@@ -55,6 +55,16 @@ When the barplot(s) are examined, it's quite clear that most of the female popul
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+table1 <- xtabs(~infected + treatment, data=females)
+rowPerc(table1)
+colPerc(table1)
+```
+
+Numerically, it's clear that the majority of people of took the drug did not get AIDS.  Even among those who took the placebo, only 2.42% of the female population got AIDS.  However, examining the data of those infected with AIDS supports the results generated in the earlier barplot.  For the females who were infected with AIDS, 58.82% had taken the drug meant to lessen the likelihood of infection.  This suggests that the drug itself is not effective in its aim.  Further inferential testing is necesitated to confirm this.
+
+
+
 ## Inferential Results
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
