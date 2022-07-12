@@ -80,7 +80,7 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 
-
+Analyzing the Chi-Square test generated above, we find the p-value to be .0001; because this is lesser than .05, we reject the null hypothesis in favor of the alternate hypothesis.  This provides the evidence to suggest that there IS a difference between the females persons who did and did not receive the medication.
 
 
 # Discussion and Conclusion
