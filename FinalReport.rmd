@@ -86,3 +86,5 @@ Analyzing the Chi-Square test generated above, we find the p-value to be .0001; 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+There does seem to be a difference between among the female population who takes the drug, but it subverts reason, particularly because adminstering the drug seems to CAUSE a higher incidence of AIDS among females.  In advising a female patient as to whether or not they should take the medicine, counseling against it would be wisest, given the percentage/counts-based numerical and graphical data corroborating one another, along with the decisive Chi-Square computations generated above.  
